@@ -1,9 +1,9 @@
 import speech_recognition as sr
 while True:
     with sr.Microphone() as source:
-        print("SAY SOMETHING");
+        print("hello world");
         audio = r.listen(source)
-        print("TIME OVER, THANKS")
+        print("yeah . Thanks")
 
 
     try:
